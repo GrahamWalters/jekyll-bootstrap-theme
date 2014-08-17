@@ -1,0 +1,15 @@
+<div class="col-sm-3 col-sm-offset-1 blog-sidebar">
+  <div class="sidebar-module sidebar-module-inset">
+    <h4>About</h4>
+    <p>{{ site.about }}</p>
+  </div>
+  <div class="sidebar-module">
+    <h4>Elsewhere</h4>
+    <ol class="list-unstyled">
+      {% if site.github_link %}<li><a href="{{ site.github_link }}">GitHub</a></li>{% endif %}
+      {% if site.twitter_link %}<li><a href="{{ site.twitter_link }}">Twitter</a></li>{% endif %}
+      {% if site.facebook_link %}<li><a href="{{ site.facebook_link }}">Facebook</a></li>{% endif %}
+      <li><a href="/feed.xml">RSS</a></li>
+    </ol>
+  </div>
+</div><!-- /.blog-sidebar -->

@@ -1,0 +1,17 @@
+title:          The Bootstrap Blog
+tagline:        "The official example template of creating a blog with Bootstrap."
+about:          "Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur."
+url:            http://0.0.0.0:4000
+
+markdown:       rdiscount
+permalink:      /:title/
+highlighter:    pygments
+paginate:       10
+paginate_path: "blog/page-:num"
+encoding:       UTF-8
+
+exclude:        ["README.md"]
+
+github_link: "#git"
+twitter_link:
+facebook_link:
